@@ -1,0 +1,1 @@
+This project is a graphical user interface (GUI) for a Tesla-style infotainment system, developed using the Qt framework. The interface aims to replicate the modern, sleek design found in Tesla vehicles, offering users control over various features
