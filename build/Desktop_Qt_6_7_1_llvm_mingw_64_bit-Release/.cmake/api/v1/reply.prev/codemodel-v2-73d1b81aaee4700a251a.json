@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-44c77505a71635028953.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cluster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-9be3c742cd09d72b4216.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-0a793a72215330c67b79.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-09189e944bc2ffcf6a72.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-e27c4cac191a8810a9b1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster-Release-31dfba2ac529bffd9fee.json",
+					"name" : "appCluster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_autogen-Release-3e697e1d56bcb9dbe1c6.json",
+					"name" : "appCluster_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_autogen_timestamp_deps-Release-b1db140cad3454cad294.json",
+					"name" : "appCluster_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_qmlimportscan-Release-6b1c842e8658317f70fe.json",
+					"name" : "appCluster_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_qmllint-Release-09a8680f06c9eb5d3c0f.json",
+					"name" : "appCluster_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_qmllint_json-Release-01cfd928188b491bacee.json",
+					"name" : "appCluster_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_qmllint_module-Release-5d2d0fbf04f72fe34573.json",
+					"name" : "appCluster_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_qmltyperegistration-Release-ac47a27d692d783b88d9.json",
+					"name" : "appCluster_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCluster_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCluster_tooling-Release-396903710a0202ab5d07.json",
+					"name" : "appCluster_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/hamza/OneDrive/Documents/Cluster/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Release",
+		"source" : "C:/Users/hamza/OneDrive/Documents/Cluster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

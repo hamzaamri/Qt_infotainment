@@ -1,0 +1,40 @@
+<RCC>
+  <qresource prefix="/Cluster/">
+    <file alias="Main.qml">C:/Users/hamza/OneDrive/Documents/Cluster/Main.qml</file>
+    <file alias="ui/BottomBar/BottomBar.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/BottomBar/BottomBar.qml</file>
+    <file alias="ui/RightScreen/RightScreen.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/RightScreen/RightScreen.qml</file>
+    <file alias="ui/LeftScreen/LeftScreen.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/LeftScreen/LeftScreen.qml</file>
+    <file alias="ui/RightScreen/MapNavigation.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/RightScreen/MapNavigation.qml</file>
+    <file alias="ui/BottomBar/HVACComp.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/BottomBar/HVACComp.qml</file>
+    <file alias="ui/RightScreen/AudioBox.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/RightScreen/AudioBox.qml</file>
+    <file alias="ui/RightScreen/TextButton.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/RightScreen/TextButton.qml</file>
+    <file alias="ui/BottomBar/Videopage.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/BottomBar/Videopage.qml</file>
+    <file alias="ui/RightScreen/Musicpage.qml">C:/Users/hamza/OneDrive/Documents/Cluster/ui/RightScreen/Musicpage.qml</file>
+    <file alias="ui/assets/icon/AC.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/AC.png</file>
+    <file alias="ui/assets/icon/beethoven.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/beethoven.png</file>
+    <file alias="ui/assets/icon/BMW.jpg">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/BMW.jpg</file>
+    <file alias="ui/assets/icon/BMW.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/BMW.png</file>
+    <file alias="ui/assets/icon/bwm.jpg">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/bwm.jpg</file>
+    <file alias="ui/assets/icon/carr.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/carr.png</file>
+    <file alias="ui/assets/icon/contact.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/contact.png</file>
+    <file alias="ui/assets/icon/heat-system.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/heat-system.png</file>
+    <file alias="ui/assets/icon/lighting.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/lighting.png</file>
+    <file alias="ui/assets/icon/lock.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/lock.png</file>
+    <file alias="ui/assets/icon/louis.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/louis.png</file>
+    <file alias="ui/assets/icon/microphone.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/microphone.png</file>
+    <file alias="ui/assets/icon/mozart.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/mozart.png</file>
+    <file alias="ui/assets/icon/music.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/music.png</file>
+    <file alias="ui/assets/icon/play.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/play.png</file>
+    <file alias="ui/assets/icon/Small_car.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/Small_car.png</file>
+    <file alias="ui/assets/icon/smallcar.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/smallcar.png</file>
+    <file alias="ui/assets/icon/telephone.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/telephone.png</file>
+    <file alias="ui/assets/icon/tesla3.jpg">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/tesla3.jpg</file>
+    <file alias="ui/assets/icon/unlock.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/unlock.png</file>
+    <file alias="ui/assets/icon/ventilation.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/ventilation.png</file>
+    <file alias="ui/assets/icon/small.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/small.png</file>
+    <file alias="ui/video/laboratory.avi">C:/Users/hamza/OneDrive/Documents/Cluster/ui/video/laboratory.avi</file>
+    <file alias="ui/video/ShortAnimated.avi">C:/Users/hamza/OneDrive/Documents/Cluster/ui/video/ShortAnimated.avi</file>
+    <file alias="ui/assets/icon/heating.png">C:/Users/hamza/OneDrive/Documents/Cluster/ui/assets/icon/heating.png</file>
+  </qresource>
+</RCC>
+

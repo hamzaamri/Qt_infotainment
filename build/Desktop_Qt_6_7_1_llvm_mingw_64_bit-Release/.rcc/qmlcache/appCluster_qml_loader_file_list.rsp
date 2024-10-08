@@ -1,0 +1,14 @@
+--resource
+C:/Users/hamza/OneDrive/Documents/Cluster/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Release/.qt/rcc/qmake_Cluster.qrc
+--resource
+C:/Users/hamza/OneDrive/Documents/Cluster/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Release/.qt/rcc/appCluster_raw_qml_0.qrc
+/Cluster/Main.qml
+/Cluster/ui/BottomBar/BottomBar.qml
+/Cluster/ui/RightScreen/RightScreen.qml
+/Cluster/ui/LeftScreen/LeftScreen.qml
+/Cluster/ui/RightScreen/MapNavigation.qml
+/Cluster/ui/BottomBar/HVACComp.qml
+/Cluster/ui/RightScreen/AudioBox.qml
+/Cluster/ui/RightScreen/TextButton.qml
+/Cluster/ui/BottomBar/Videopage.qml
+/Cluster/ui/RightScreen/Musicpage.qml

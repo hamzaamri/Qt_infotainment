@@ -1,0 +1,2 @@
+C:/Users/hamza/OneDrive/Documents/Cluster/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Release/appCluster_autogen/include/../KSFW2HGU4N/moc_hvachandler.cpp.json
+C:/Users/hamza/OneDrive/Documents/Cluster/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Release/appCluster_autogen/include/../KSFW2HGU4N/moc_system.cpp.json

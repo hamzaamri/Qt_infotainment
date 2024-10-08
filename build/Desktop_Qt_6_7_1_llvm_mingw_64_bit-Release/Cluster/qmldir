@@ -1,0 +1,14 @@
+module Cluster
+typeinfo appCluster.qmltypes
+prefer :/Cluster/
+Main 1.0 Main.qml
+BottomBar 1.0 ui/BottomBar/BottomBar.qml
+RightScreen 1.0 ui/RightScreen/RightScreen.qml
+LeftScreen 1.0 ui/LeftScreen/LeftScreen.qml
+MapNavigation 1.0 ui/RightScreen/MapNavigation.qml
+HVACComp 1.0 ui/BottomBar/HVACComp.qml
+AudioBox 1.0 ui/RightScreen/AudioBox.qml
+TextButton 1.0 ui/RightScreen/TextButton.qml
+Videopage 1.0 ui/BottomBar/Videopage.qml
+Musicpage 1.0 ui/RightScreen/Musicpage.qml
+

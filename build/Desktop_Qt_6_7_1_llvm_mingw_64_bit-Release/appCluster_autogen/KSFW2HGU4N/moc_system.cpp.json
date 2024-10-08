@@ -1,0 +1,101 @@
+{
+    "classes": [
+        {
+            "className": "System",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "lock",
+                    "notify": "lockChanged",
+                    "read": "lock",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setLock"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "dTemp",
+                    "notify": "dTempChanged",
+                    "read": "dTemp",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDTemp"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 2,
+                    "name": "userName",
+                    "notify": "userNameChanged",
+                    "read": "userName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setUserName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 3,
+                    "name": "time",
+                    "notify": "timeChanged",
+                    "read": "time",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setTime"
+                }
+            ],
+            "qualifiedClassName": "System",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "lockChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "dTempChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "userNameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "timeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "system.h",
+    "outputRevision": 68
+}

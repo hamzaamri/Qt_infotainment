@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appCluster_FILE C:/Users/hamza/OneDrive/Documents/Cluster/build/Desktop_Qt_6_7_1_llvm_mingw_64_bit-Debug/appCluster.exe)
+set(__QT_DEPLOY_TARGET_appCluster_RUNTIME_DLLS C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6Quick.dll;C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6Qml.dll;C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6Network.dll;C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6Gui.dll;C:/Qt/6.7.1/llvm-mingw_64/bin/Qt6Core.dll)
