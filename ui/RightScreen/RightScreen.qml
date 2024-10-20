@@ -118,6 +118,50 @@ Rectangle{
         width:parent.width/50
         fillMode:Image.PreserveAspectFit
         source: "qrc:/Cluster/ui/assets/icon/smallcar.png"
+        Rectangle {
+                id: userPopup
+                width: 250
+                height: 150
+                anchors {
+                    top: user.bottom
+                    left: user.left
+                    leftMargin: 15
+                    topMargin: 5
+                }
+                visible: false  // Initially hidden
+                color: "#f0f0f0"
+                border.color: "black"
+                radius: 10
+
+                Column {
+                    anchors.centerIn: parent
+                    spacing: 10
+
+                    Text {
+                        text: "Name: Hamza Amri"
+                        font.pixelSize: 14
+                    }
+
+                    Text {
+                        text: "Location: Manouba"
+                        font.pixelSize: 14
+                    }
+
+                    Text {
+                        text: "Phone: +216 12345678"
+                        font.pixelSize: 14
+                    }
+                    Text {
+                        text: "Email: +hamzaamri612@gmail.com"
+                        font.pixelSize: 14
+                    }
+                }
+
+            }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: userPopup.visible = !userPopup.visible// Hide popup when clicked
+        }
     }
     Text{
         id:username
@@ -142,122 +186,59 @@ Rectangle{
             topMargin: 20
         }
     }
-    /*Rectangle{
-     id:mainsection
-     anchors{
-         /*left:lockicon.left
-         right:parent.right
-         bottom:bottomBar.top
-         top:mapSearch.bottom
-         topMargin: 423
-         top:parent.top
-         topMargin: 510
-         right:parent.right
-         left:parent.left
-         leftMargin: -10
-
-     }
-
-     height:150
-     color:"#2b2a2a"
-
-     AudioBox{
-         id:firstsong
-         anchors{
-             left:mainsection.left
-             right:mainsection.right
-             bottom:mainsection.bottom
-             bottomMargin: 25
-         }
-         songIndex: 0
-         title: "Les Noces de Figaro"
-         authorName: "Mozart "
-         imageSource: "qrc:/Cluster/ui/assets/icon/mozart.png"
-     }
-     AudioBox{
-         id:secondsong
-         anchors{
-             left:mainsection.left
-             right:mainsection.right
-             bottom:mainsection.bottom
-             bottomMargin: 25
-         }
-         songIndex: 1
-         title: "beethoven symphonie"
-         authorName: "beethoven"
-         imageSource: "qrc:/Cluster/ui/assets/icon/beethoven.png"
-     }
-     AudioBox{
-         id:thirdsong
-         anchors{
-             left:mainsection.left
-             right:mainsection.right
-             bottom:mainsection.bottom
-             bottomMargin: 25
-         }
-         songIndex: 2
-         title: "Twelfth Street Rag"
-         authorName: "louis armstrong"
-         imageSource: "qrc:/Cluster/ui/assets/icon/louis.png"
-     }
 
 
-  }
-    Row{
-        anchors{
-            right:mainsection.right
-            top:mainsection.top
-            topMargin: 50
-            rightMargin: 30
-        }
+    ListView {
+           id: contactList
+           width: rightscreen.width * 0.3  // Takes 30% of the parent width
+           height: rightscreen.height * 0.4 // Adjust height as needed
+           visible: false  // Hidden initially
+           anchors.right: rightscreen.right  // Positioned at the right edge
+           anchors.bottom: rightscreen.bottom  // Position bottom of ListView at the top of bottomBar
+           topMargin:-100
 
-        spacing:20
-    TextButton{
-        id:previousButton
-        width:50
-        height:50
-        text:"<"
-        onClicked: playerController.switchtoprevioussong()
-    }
-    TextButton{
-        id:pause
-        width:50
-        height:50
-        text:playerController.playing?"pause":"play"
-        onClicked: playerController.playpause()
-    }
-    TextButton{
-        id:nextButton
-        width:50
-        height:50
-        text:">"
-        onClicked: playerController.switchtonextsong()
-    }
-    }
-    QtObject{
-        id:playerController
-        property int currentSongIndex:0
-        property int songCount:3
-        property  bool playing: false
 
-        function playpause(){
-            playing=!playing
-        }
-        function switchtoprevioussong(){
-            if(currentSongIndex>0){
-                currentSongIndex--
-            }
-            else{
-                currentSongIndex=songCount-1
-            }
-        }
-        function switchtonextsong(){
-            if(currentSongIndex+1>=songCount){
-                currentSongIndex=0
-            }
-            else{
-                currentSongIndex++
-            }
-        }
-    }*/
-}
+
+           //anchors.horizontalCenter: parent.horizontalCenter // Center horizontally
+
+           model: ListModel {
+               ListElement { name: "Alice"; number: "+216 12345911" }  // French format
+               ListElement { name: "Bob"; number: "+216 15887741" }    // French format
+               ListElement { name: "Charlie"; number: "+216 02552265" } // French format
+               ListElement { name: "Diana"; number: "+216 65236984" }   // French format
+               ListElement { name: "Eve"; number: "+216 6 35789654" }     // New contact in French format
+               ListElement { name: "Frank"; number: "+216 01254986" }   // New contact in French format
+           }
+
+           delegate: Item {
+               width: contactList.width
+               height: 60
+
+               Rectangle {
+                   width: parent.width
+                   height: parent.height
+                   color: "lightblue"
+                   border.color: "black"
+
+                   Column {
+                       anchors.centerIn: parent
+
+                       Text {
+                           text: name
+                           font.pointSize: 16
+                       }
+
+                       Text {
+                           text: number  // Display the contact's number
+                           font.pointSize: 14
+                           color: "gray"
+                       }
+                   }
+               }
+           }
+       }
+
+       function toggleContacts() {
+           contactList.visible = !contactList.visible;
+       }
+   }
